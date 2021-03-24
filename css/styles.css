@@ -247,9 +247,11 @@ footer > div {
 }
 
 .comment h5 {
+  padding-top: 24px;
   opacity: 0.5;
   text-align: left;
-  font-size: 0.6rem;
+  font-weight: normal;
+  font-size: 12px;
   line-height: 19.5px;
 }
 
@@ -318,11 +320,13 @@ footer > div {
 
   #marvol-img {
     margin: auto;
-    width: 600px;
+    margin-right: 17px;
+    width: 500px;
   }
 
   #netnet-img {
     margin: auto;
+    margin-left: 150px;
     width: 302px;
   }
 
@@ -347,6 +351,7 @@ footer > div {
   }
 
   .proyect-info > div {
+    margin: auto;
     width: 50%;
   }
 
@@ -382,5 +387,9 @@ footer > div {
   .proyect-title {
     font-size: 34px;
     line-height: 55px;
+  }
+
+  .proyect-info-data {
+    max-width: 449px;
   }
 }
