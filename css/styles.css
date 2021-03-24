@@ -87,6 +87,7 @@ p {
 
 input,
 textarea {
+  width: 90%;
   display: block;
   padding: 12px 16px;
   margin: 8px 0px;
@@ -135,6 +136,10 @@ footer > div {
 
 #contact {
   margin: 80px 0px;
+}
+
+#contact h4 {
+  text-align: center;
 }
 
 .nav-item {
@@ -213,7 +218,7 @@ footer > div {
 .large-button {
   margin: 16px auto;
   width: 100%;
-  max-width: 300px;
+  max-width: 328px;
   font-weight: bold;
 }
 
@@ -226,6 +231,7 @@ footer > div {
   max-width: 1132px;
   max-height: 493px;
   padding: 24px;
+  margin: 40px;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(39.7657px);
   border: 3px rgba(255, 255, 255, 0.2);
@@ -260,13 +266,9 @@ footer > div {
     align-items: center;
   }
 
-  form {
-    margin: auto;
-  }
-
   input,
   textarea {
-    width: 80%;
+    width: 90%;
   }
 
   footer {
@@ -303,6 +305,10 @@ footer > div {
     max-height: 610px;
   }
 
+  #pre-proyect {
+    margin: 200px auto;
+  }
+
   #contact {
     display: flex;
     flex-direction: column;
@@ -330,6 +336,10 @@ footer > div {
 
   #contact div {
     text-align: center;
+  }
+
+  .proyect > div {
+    margin: 80px auto;
   }
 
   .proyect-info {
