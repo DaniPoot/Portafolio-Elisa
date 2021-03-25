@@ -181,6 +181,11 @@ footer > div {
   vertical-align: middle;
 }
 
+.git-icon {
+  margin: 0px 8px;
+  vertical-align: middle;
+}
+
 .proyect {
   margin: 40px 0px;
 }
@@ -258,6 +263,10 @@ footer > div {
 @media screen and (min-width: 768px) {
   body > * {
     margin: auto;
+  }
+
+  header {
+    margin: 30px auto;
   }
 
   main {
